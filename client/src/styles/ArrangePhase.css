@@ -1,0 +1,26 @@
+.arrange-phase {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.arrange-phase .hand {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.arrange-phase .hand.sortable {
+  cursor: grab;
+}
+
+.arrange-phase .hand.sortable:active {
+  cursor: grabbing;
+}
+
+.arrange-phase .action-area {
+  display: flex;
+  justify-content: center;
+}

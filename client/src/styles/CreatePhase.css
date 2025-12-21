@@ -1,0 +1,90 @@
+.create-phase {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.create-phase .hand {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.selection-area {
+  margin-bottom: 24px;
+  min-height: 50px;
+}
+
+.preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: #fff3e0;
+  border-radius: var(--border-radius);
+  border: 2px solid #ffb74d;
+}
+
+.preview-word {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.registered-words {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: left;
+  box-shadow: var(--shadow);
+}
+
+.registered-words h3 {
+  font-size: 16px;
+  color: var(--text-light);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.word-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background: #e8f5e9;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.btn-remove {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: #f44336;
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+}
+
+.btn-remove:hover {
+  background: #d32f2f;
+}
+
+.no-words {
+  color: var(--text-light);
+  font-size: 14px;
+}
+
+.create-phase .action-area {
+  display: flex;
+  justify-content: center;
+}

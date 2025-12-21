@@ -1,0 +1,19 @@
+.exchange-phase {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.exchange-phase .hand {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.exchange-phase .action-area {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}

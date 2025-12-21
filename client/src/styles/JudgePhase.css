@@ -1,0 +1,126 @@
+.judge-phase {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.judge-header h2 {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 24px;
+}
+
+.word-display {
+  background: var(--card-bg);
+  padding: 32px;
+  border-radius: var(--border-radius);
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+
+.word-text {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.word-rank {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+.vote-status {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  padding: 16px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+
+.voter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  background: var(--bg-color);
+  border-radius: 6px;
+}
+
+.voter.me {
+  background: #e3f2fd;
+  font-weight: bold;
+}
+
+.voter-name {
+  font-size: 14px;
+}
+
+.voter-status {
+  font-size: 16px;
+}
+
+.vote-result {
+  padding: 20px;
+  border-radius: var(--border-radius);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.vote-result.approved {
+  background: #e8f5e9;
+  color: var(--success-color);
+}
+
+.vote-result.rejected {
+  background: #ffebee;
+  color: var(--danger-color);
+}
+
+.vote-result.tie {
+  background: #fff3e0;
+  color: #f57c00;
+}
+
+.tie-result p {
+  margin-bottom: 16px;
+}
+
+.vote-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.vote-good {
+  background: var(--success-color) !important;
+  color: white !important;
+  padding: 16px 32px !important;
+  font-size: 18px !important;
+}
+
+.vote-good:hover {
+  opacity: 0.9;
+}
+
+.vote-bad {
+  background: var(--danger-color) !important;
+  color: white !important;
+  padding: 16px 32px !important;
+  font-size: 18px !important;
+}
+
+.vote-bad:hover {
+  opacity: 0.9;
+}
+
+.presenter-message,
+.waiting-message {
+  color: var(--text-light);
+  font-size: 16px;
+  padding: 20px;
+  background: var(--bg-color);
+  border-radius: var(--border-radius);
+}
